@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Participation3.props" />
+</Project>

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Contact Page";
+}
+
+
+<div class="container p-5">
+<p class="h1 text-center">Contact us for more information!</p>
+</div>
+
+<form>
+    <div class="container p-5">
+        <div class="mb-3 mt-3">
+           <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" value="" placeholder="Enter name:" data-val-required="Name is required." data-val="true" data-val-minlength="Error message" data-val-minlength-min="Minimum of 3"/>
+            <span data-valmsg-for="name" data-valmsg-replace="true" class="text-muted text-danger"></span>
+        </div>
+        <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email:" name="email" data-val-required="Email is required." data-val="true">
+            <span data-valmsg-for="email" data-valmsg-replace="true" class="text-muted text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label for="comment">Your message:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text" data-val-required="Message is required." data-val="true" data-val-minlength="Error message" data-val-minlength-min="Minimum of 5"></textarea>
+            <span data-valmsg-for="text" data-valmsg-replace="true" class="text-muted text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary p-2">Submit</button>
+    </div>
+</form>

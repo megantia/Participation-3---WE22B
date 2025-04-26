@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Efjk25aNrD4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\megan\\OneDrive - STADIO\\Classwork\\Year 2\\WE22B\\Participation3\\Participation3\\Participation3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\megan\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",
+    "C:\\Users\\megan\\.nuget\\packages\\jquery.validation\\1.8.0.1\\jquery.validation.1.8.0.1.nupkg.sha512",
+    "C:\\Users\\megan\\.nuget\\packages\\microsoft.jquery.unobtrusive.validation\\4.0.0\\microsoft.jquery.unobtrusive.validation.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
